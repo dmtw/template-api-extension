@@ -1,0 +1,25 @@
+{
+  "name": "@<%= scope %>/module-api-<%= this.changeCase.lower(moduleName) %>",
+  "description": "<%= description %>",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {},
+  "colmena": {
+    "module": {
+      "modelSources": [
+        "common/models"
+      ],
+      "models": {
+        "<%= this.changeCase.pascal(moduleName) %>": {
+          "dataSource": "db"
+        },
+        "<%= this.changeCase.pascal(moduleName) %>Item": {
+          "dataSource": "db"
+        }
+      },
+      "sampleData": [
+        "sample-data/sample-data.json"
+      ]
+    }
+  }
+}

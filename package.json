@@ -13,6 +13,7 @@
     "template"
   ],
   "dependencies": {
+    "change-case": "^3.0.1",
     "superb": "^1.3.0"
   }
 }
