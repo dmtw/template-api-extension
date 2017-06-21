@@ -1,9 +1,9 @@
 {
-  "name": "template-colmena-api-module",
+  "name": "template-api-extension",
   "version": "0.0.0",
-  "description": "Scaffold out a Colmena API Module",
+  "description": "Scaffold out a Colmena API Extension",
   "repository": {
-    "url": "beeman/template-colmena-api-module",
+    "url": "beeman/template-api-extension",
     "type": "git"
   },
   "author": "beeman <borggreve@gmail.com> (github.com/beeman)",

@@ -1,6 +1,6 @@
-# template-colmena-api-module
+# template-api-extension
 
-> Scaffold out a Colmena API Module
+> Scaffold out a Colmena API Extension
 
 ## Usage
 
@@ -15,13 +15,7 @@ npm i -g sao
 ### From git
 
 ```bash
-sao beeman/template-colmena-api-module my-project
-```
-
-### From npm
-
-```bash
-sao colmena-api-module my-project
+sao colmena/template-api-extension my-extension
 ```
 
 ## License
