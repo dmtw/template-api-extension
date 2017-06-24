@@ -8,5 +8,9 @@ module.exports = function(<%= this.changeCase.pascal(moduleName) %>) {
   <%= this.changeCase.pascal(moduleName) %>.remoteMethod('echo', {
     accepts: { arg: 'value', type: 'string' },
     returns: { arg: 'result', type: 'string' },
+    http: {
+      path: '/echo',
+      verb: 'get',
+    },
   })
 }
