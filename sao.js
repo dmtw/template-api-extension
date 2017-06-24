@@ -1,4 +1,5 @@
 const changeCase = require('change-case')
+const pathCase = changeCase.pathCase
 
 module.exports = {
   templateOptions: {
@@ -28,6 +29,15 @@ module.exports = {
       default: ':gitUser:',
       store: true
     },
+  },
+  move: answers => {
+    return {
+      'common/models/starter.js': `common/models/${pathCase(answers.moduleName)}.js`,
+      'common/models/starter.json': `common/models/${pathCase(answers.moduleName)}.json`,
+      'common/models/starter-item.js': `common/models/${pathCase(answers.moduleName)}-item.js`,
+      'common/models/starter-item.json': `common/models/${pathCase(answers.moduleName)}-item.json`,
+    }
+
   },
   showTip: true,
 }
