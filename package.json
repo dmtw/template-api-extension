@@ -1,6 +1,6 @@
 {
   "name": "@colmena/template-api-extension",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Scaffold out a Colmena API Extension",
   "publishConfig": {
     "access": "public"
