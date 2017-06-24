@@ -1,7 +1,9 @@
 {
   "name": "@<%= scope %>/module-api-<%= this.changeCase.lower(moduleName) %>",
-  "description": "<%= description %>",
   "version": "0.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "dependencies": {},
   "colmena": {
